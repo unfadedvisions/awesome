@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
-  
-get 'welcome/coolpage' => 'welcome#coolpage'
+  #there can olnly be one root command for root is root lol
+  root 'welcome#coolpage'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
